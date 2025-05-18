@@ -1600,8 +1600,8 @@ async function patch_kernel(kbase, kmem, p_ucred, restore_info) {
 
     log('setuid(0)');
     sysi('setuid', 0);
-    log('Berhasil Sanak AE Klik Ok!');
-    alert("Berhasil Sanak AE Klik Ok!");
+    log('BERHASIL Sanak AE !!! Klik Ok ');
+    alert("BERHASIL Sanak AE !!! Klik Ok!");
 }
 
 // FUNCTIONS FOR STAGE: SETUP
