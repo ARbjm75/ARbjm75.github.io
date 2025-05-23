@@ -44,6 +44,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
                         <div class="progress-bar" id="progress-bar"></div>
                     </div>
                 </div>
+		<script>
+        if (window.applicationCache.status=='0')
+        {
+          window.location.replace("cache.html");
+        }
+        </script>
                 <!-- Run exploit and reset buttons removed -->
             </div>
 
