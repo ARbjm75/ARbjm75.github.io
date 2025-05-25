@@ -1593,8 +1593,8 @@ async function patch_kernel(kbase, kmem, p_ucred, restore_info) {
 
     log('setuid(0)');
     sysi('setuid', 0);
-    log('Allhamdulillah Mau Sudah Sanak AE...Klik OK Sanak !!!');
-    alert("Allhamdulillah Mau Sudah Sanak AE...Klik OK Sanak !!!");
+    log('Alhamdulillah Berhasil Sanak AE . Klik OK Sanak!!!');
+    alert("Alhamdulillah Berhasil Sanak AE . Klik OK Sanak!!!");
 }
 
 
