@@ -1,6 +1,6 @@
 <html manifest="psfree_lapse.cache">
 <head>
-<title>PSFree-Lapse Exploit For PS4 9.00</title>
+<title>AR Playstation</title>
 <link rel="shortcut icon" href="favicon.ico"></link>
 <style>
 body{background-image: url("bg.jpg");background-repeat: no-repeat;background-size:70%;background-position: center;background-color: white;
@@ -9,9 +9,9 @@ color:black;font-size:20px;text-align:center;margin:0;overflow:hidden;}
 </style>
 <script>
 history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));msgs.innerHTML="Installing Offline Cache ... " + Percent + "%"};
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));msgs.innerHTML="Proses Penyimpanan WEB Hen 9.00 Tunggu Sampai 100% ..." + Percent + "%"};
 function DisplayCacheProgress(){
-setTimeout(function(){msgs.innerHTML="Cache Installed Successfully";},2000);
+setTimeout(function(){msgs.innerHTML="Proses Penyimpanan WEB Berhasil...";},2000);
 setTimeout(function(){location.reload();},3000);
 }
 window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
