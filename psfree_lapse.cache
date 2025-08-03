@@ -10,7 +10,10 @@ lapse.mjs
 payload.bin
 psfree.mjs
 fonts\LiberationMono-Regular.ttf
+kpatch\900.c
+kpatch\900.d
 kpatch\900.elf
+kpatch\900.o
 module\chain.mjs
 module\constants.mjs
 module\int64.mjs
