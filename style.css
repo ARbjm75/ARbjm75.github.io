@@ -1,19 +1,19 @@
 html {
-    background-image: url('img.jpg');
+    background-image: url('AR.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #24272b;
-    color: white;
+    color: rgb(8, 8, 8);
     text-align: center;
     overflow: hidden;
 }
 
 h1 {
-    text-shadow: 0.1em 0.1em 0.2em black;
-    font-size: 40px;
-    color: rgb(48, 5, 240);
+    text-shadow: 0.1em 0.1em 0.2em rgb(7, 7, 7);
+    font-size: 50px;
+    color: rgba(247, 6, 6, 1);
 }
 
 a {
