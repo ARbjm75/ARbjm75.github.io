@@ -11,9 +11,9 @@ html {
 }
 
 h1 {
-    text-shadow: 0.1em 0.1em 0.2em rgb(237, 5, 245);
+    text-shadow: 0.1em 0.1em 0.2em rgb(245, 5, 5);
     font-size: 45px;
-    color: rgb(50, 6, 247);
+    color: rgb(10, 10, 10);
 }
 
 a {
@@ -102,4 +102,3 @@ a {
     background-color: #c2c2c2;
     color: #303030;
 }
-
