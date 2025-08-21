@@ -1857,4 +1857,16 @@ var loader_addr = chain.sysp(
    }
  };
 
+
+})
+
+kexploit().then(() => {
+
+//Load ABC fix as a regular Payload
+setTimeout(PayloadLoader("aio_patches.bin"),500);
+log("AIO Fixes Applied.!");
+//Load GoldHEN :)
+setTimeout(PayloadLoader("goldhen_2.4b18.5.bin"),500);
+log("GoldHEN Loaded.!");
+
 })
