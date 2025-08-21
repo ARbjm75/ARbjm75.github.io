@@ -4,16 +4,16 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #24272b;
+    background-color: #066cf1;
     color: rgb(8, 8, 8);
     text-align: center;
     overflow: hidden;
 }
 
 h1 {
-    text-shadow: 0.1em 0.1em 0.2em rgb(247, 245, 245);
+    text-shadow: 0.1em 0.1em 0.2em rgb(238, 7, 7);
     font-size: 65px;
-    color: rgb(152, 8, 248);
+    color: rgb(48, 7, 233);
 }
 
 a {
@@ -99,6 +99,6 @@ a {
 }
 
 .btn-ps5:hover {
-    background-color: #c2c2c2;
+    background-color: #5704f3;
     color: #303030;
 }
