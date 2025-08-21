@@ -1606,7 +1606,7 @@ async function patch_kernel(kbase, kmem, p_ucred, restore_info) {
     localStorage.ExploitLoaded="yes"
     sessionStorage.ExploitLoaded="yes";
    //alert("kernel exploit succeeded!");
-    msgs.innerHTML = "TERIMAKASIH AR Playstation ...";
+    msgs.innerHTML = "AR Playstation ...";
 }
 
 
@@ -1856,13 +1856,5 @@ var loader_addr = chain.sysp(
     );	
    }
  };
-
-})
-}
-kexploit().then(() => {
-
-//Load ABC fix as a regular Payload
-setTimeout(PayloadLoader("aio_patches.bin"),500);
-log("AIO Fixes Applied.!");
 
 })
