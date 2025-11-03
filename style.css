@@ -1,19 +1,19 @@
 html {
-    background-image: url('AR.jpg');
+    background-image: url('AR.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #066cf1;
+    background-color: #24272b;
     color: rgb(8, 8, 8);
     text-align: center;
     overflow: hidden;
 }
 
 h1 {
-    text-shadow: 0.1em 0.1em 0.2em rgb(238, 7, 7);
-    font-size: 50px;
-    color: rgba(237, 236, 243, 1);
+    text-shadow: 0.1em 0.1em 0.2em rgb(7, 7, 7);
+    font-size: 45px;
+    color: rgb(6, 247, 26);
 }
 
 a {
@@ -99,7 +99,6 @@ a {
 }
 
 .btn-ps5:hover {
-    background-color: #5704f3;
+    background-color: #c2c2c2;
     color: #303030;
 }
-
